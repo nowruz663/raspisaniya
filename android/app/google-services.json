@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "710555466463",
+    "project_id": "altyn-restoran",
+    "storage_bucket": "altyn-restoran.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710555466463:android:57a3c5dfa423115066476a",
+        "android_client_info": {
+          "package_name": "com.altyn.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARhdAQqoJeKke-rXucBxd86CMEidVPtvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
