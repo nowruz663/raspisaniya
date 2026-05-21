@@ -23,16 +23,16 @@ jobs:
 
       - name: Get dependencies
         run: |
-          cd raspisaniya_app
+          cd *app/ || cd *App/ || cd *APP/ || cd .
           flutter pub get
 
       - name: Build APK
         run: |
-          cd raspisaniya_app
+          cd *app/ || cd *App/ || cd *APP/ || cd .
           flutter build apk --release
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: app-release
-          path: raspisaniya_app/build/app/outputs/flutter-apk/app-release.apk
+          path: "**/build/app/outputs/flutter-apk/app-release.apk"
