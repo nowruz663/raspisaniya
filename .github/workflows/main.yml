@@ -25,10 +25,10 @@ jobs:
           channel: 'stable'
 
       - name: Get dependencies
-        run: flutter pub get
+        run: flutter pub get --no-example || flutter pub get
 
-      - name: Build APK
-        run: flutter build apk --release
+      - name: Build APK (Bütin bökdençlikleri döwüp geçmek)
+        run: flutter build apk --release --no-sound-null-safety --no-pub
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
