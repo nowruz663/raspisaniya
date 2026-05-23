@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "710555466463",
-    "project_id": "altyn-restoran",
-    "storage_bucket": "altyn-restoran.firebasestorage.app"
+    "project_number": "1098730723241",
+    "project_id": "raspisaniya",
+    "storage_bucket": "raspisaniya.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:710555466463:android:57a3c5dfa423115066476a",
+        "mobilesdk_app_id": "1:1098730723241:android:12ef14eb1c0ad1a9d3d6b8",
         "android_client_info": {
-          "package_name": "com.altyn.app"
+          "package_name": "com.raspisaniya.app"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyARhdAQqoJeKke-rXucBxd86CMEidVPtvw"
+          "current_key": "AIzaSyBUfzHa7hUDCseA6nyt9mYZGVOcgu75SKA"
         }
       ],
       "services": {
